@@ -7,6 +7,18 @@
 # Place file in the same folder as function files
 # Can run each individually, or comment out all but 1 to run from command line
 
+import pandas as pd
+import datetime
+import time
+import sys
+import string
+import gc
+import requests
+import xml.etree.ElementTree as ET
+from urllib.parse import urlencode
+from urllib.request import urlopen
+from urllib.error import HTTPError
+
 import arxiv_search_function as asf
 import biomedrxiv_search_function as bmsf
 import datetime
