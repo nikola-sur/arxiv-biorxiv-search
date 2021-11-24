@@ -58,8 +58,7 @@ records_df2 = asf.arxivsearch(
 	kwd_one = [['theory', 'impossibility', 'sample complexity', 'ycleGAN']], 
 	max_records = 50, 
 	max_time = 300,
-	cols = ['id', 'title', 'categories', 'abstract', 'authors', 'date'],
-	export = '/Users/blairbilodeau/Desktop/arxiv/')
+	cols = ['id', 'title', 'categories', 'abstract', 'authors', 'date'])
 
 records_df3 = bmsf.biomedrxivsearch(
 	start_date = datetime.date.today().replace(day=1), 
