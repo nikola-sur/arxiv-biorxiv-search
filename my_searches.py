@@ -17,7 +17,7 @@ import datetime
 records_df = asf.arxivsearch(
 	start_date = datetime.date.today() - datetime.timedelta(days=7),
  	end_date = datetime.date.today(), 
-	subjects = ['cs', 'stat', 'math'], 
+	subjects = ['stat', 'math'], 
 	kwd_req = [], 
 	kwd_exc = [], 
 	kwd_one = [['parallel'], ['Bayes'], ['sample'], ['sampler'], ['sampling'], ['Monte'], 
@@ -27,3 +27,4 @@ records_df = asf.arxivsearch(
 print(records_df.title)
 
 
+# subjects = ['cs', 'stat', 'math'],
